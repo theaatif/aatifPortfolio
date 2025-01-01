@@ -35,7 +35,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: #0c0c0c;
+    background-color: #111;
 }
 
 #main{
@@ -155,6 +155,7 @@ html,body{
 
 /* //navbar */
 #nav-bar{
+    padding-top: 7vh;
     height: 10vh;
     /* background-color: black; */
     display: flex;
@@ -259,7 +260,7 @@ html,body{
     position: relative;
     width: 100%;
     padding-top: 3vh;
-  background-color: #0c0c0c;
+    background-color: #0c0c0c;
 }
 #page2-content{
  width: 72vw;

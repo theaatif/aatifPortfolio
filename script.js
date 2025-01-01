@@ -55,13 +55,10 @@ tl.from("#line h1",{
     stagger:0.4
 });
 
-tl.from("#line-part1, #line h2",{
-
-})
 tl.to("#loader",{
     opacity:0,
     duration: 0.2,
-    delay: 2.0
+    delay: 2.9
 });
 tl.from("#page1",{
     y:1200,
@@ -76,7 +73,7 @@ tl.from("#nav-bar h3",{
     y:-50,
     opacity:0,
     delay:0,
-    duration:0.4,
+    duration:0.3,
     stagger:0.3
     
 })
