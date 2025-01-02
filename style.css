@@ -244,14 +244,24 @@ html,body{
     color: transparent;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     .intro h1{
-        text-transform: uppercase;
-        font-size: 7vw;
-        line-height: 7vw;
-       font-weight: 600;
+       
+        font-size: 11vw;
+        line-height: 13vw;
+       font-weight: 900;
+       ;
         /* font-weight: 500; */
-    }}
+    }
+    #intro2 h2{
+       
+        font-size: 11vw;
+        line-height: 14vw;
+       font-weight: 900;
+     
+        /* font-weight: 500; */
+    }
+}
 
 /*// page2 starts here */ 
 
@@ -323,7 +333,7 @@ html,body{
     
 } */
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     #page2-content {
         width: 90vw;
         margin-left: 5vw; 
@@ -346,10 +356,15 @@ html,body{
     }
 
     #desc p {
-        font-size: 4vw; 
+        font-size: 2vh; 
+        line-height: 1.8;
+        padding: 3vh 5vw;
+        margin: 5vh auto;
+        text-align: start;
+        /* font-size: 4vw; 
         line-height: 4vh;
         padding: 3vh; 
-        font-weight: 500;
+        font-weight: 500; */
         
     }
 
@@ -743,11 +758,14 @@ overflow-x: hidden;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     .overlay p img {
         height: 3vh;
         width: 3vh;
     }
+    .overlay { 
+        height: 48%; 
+      }
 
 }
     
