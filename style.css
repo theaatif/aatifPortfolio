@@ -743,6 +743,14 @@ overflow-x: hidden;
     }
 }
 
+@media (max-width: 600px) {
+    .overlay p img {
+        height: 3vh;
+        width: 3vh;
+    }
+
+}
+    
 
 
 /* //page5 start here */
