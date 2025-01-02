@@ -501,7 +501,9 @@ overflow-x: hidden;
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius: 1vw;
     /* object-position: center; */
+    
   
 }
   
@@ -564,12 +566,13 @@ overflow-x: hidden;
     /* width: 20vw;
     height: 20vw; */
     margin: 5vh auto;
+    border-radius: 1vw;
     background-color: #1a1a1a;
-    box-shadow: 0 1vh 2vh rgba(0, 0, 0, 0.5), 0 -1vh 2vh rgba(255, 255, 255, 0.1);
+    box-shadow: 0 1vh 2vh rgba(5, 5, 5, 0.5), 0 -1vh 2vh rgba(255, 255, 255, 0.1);
 }
 
 /* Unique border-radius styles for each square */
-#border-radius-1 {
+/* #border-radius-1 {
     border-radius: 10% 10% 15% 0;
 }
 
@@ -583,6 +586,10 @@ overflow-x: hidden;
 
 #border-radius-4 {
     border-radius: 10% 10% 12% 0;
+} */
+
+#border-radius{
+    border-radius: 5vw;
 }
 
 .page3-circle1 {

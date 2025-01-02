@@ -87,7 +87,7 @@ tl.from("#intro1,#intro2,#intro3,#intro4",{
 
 }
 function cursorAnimation(){
-    Shery.makeMagnet("#nav-bar #right h3, #intro2 h2" , {
+    Shery.makeMagnet("#nav-bar #right h3, #intro2 h2, .image-div" , {
         ease: "cubic-bezier(0.23, 1, 0.320, 1)",
         duration: 1,
       });
@@ -202,6 +202,7 @@ loaderCountdown()
 cursorAnimation()
 mousemover()
 footerAnimation()
+
 
 
 
