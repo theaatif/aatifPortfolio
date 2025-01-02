@@ -487,8 +487,8 @@ overflow-x: hidden;
   }
   
   .image-div {
-    height: 20vw;
-    width: 30vw;
+    height: 32vw;
+    width: 22vw;
     position: relative;
     overflow: hidden ;
     /* background-color: blue; */
@@ -510,7 +510,7 @@ overflow-x: hidden;
     bottom:-100%; 
     left: 0;
     right: 0;
-    height: 35%; 
+    height: 22%; 
     background-color: rgba(0, 0, 0,0.5); 
     color: white;
     transition: bottom 0.3s ease; 
